@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" >
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
   <title>Untitled</title>
@@ -8,15 +8,36 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
+<header class="header">
+    <img id="menu-button" src="https://raw.githubusercontent.com/mathisperso-git/naissance_clement_lucie/main/barre-de-menu.png" alt="Bouton de menu" class="menu-button">
+    <nav id="nav-menu" class="nav-menu">
+        <a href="#" class="nav-item">Quiz</a>
+        <a href="#" class="nav-item">Liste de naissance</a>
+    </nav>
+</header>
+
+<img src="https://raw.githubusercontent.com/mathisperso-git/naissance_clement_lucie/main/petit-bebe-en-vetements-gris-dort-sur-une-couverture-en-laine.jpg" alt="Photo d'un bébé" class="header-image">
+
 <div class="container">
-    <h1>Bientôt, un nouveau-né !</h1>
-    <p>
-        Bienvenue sur le futur site de naissance. Cette page est une base pour un affichage parfait sur votre téléphone.
-        Nous sommes impatients de vous faire découvrir les quizzs amusants et notre liste de naissance.
-        Restez à l'écoute pour plus d'informations !
-    </p>
+    <h1>Qui sera le bébé ?</h1>
+    <div class="question-block">
+        <h2>Sexe du bébé ?</h2>
+        <input type="text" placeholder="Fille ou garçon ?" class="user-input">
+    </div>
+    <div class="question-block">
+        <h2>Taille du bébé ?</h2>
+        <input type="text" placeholder="En cm" class="user-input">
+    </div>
+    <div class="question-block">
+        <h2>Poids du bébé ?</h2>
+        <input type="text" placeholder="En grammes" class="user-input">
+    </div>
+    <div class="question-block">
+        <h2>Prénom du bébé ?</h2>
+        <input type="text" placeholder="Votre proposition" class="user-input">
+    </div>
 </div>
-<!-- partial -->
+
   
 </body>
 </html>
